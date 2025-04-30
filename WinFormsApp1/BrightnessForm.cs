@@ -4,11 +4,11 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class Form2 : Form
+    public partial class BrightnessForm : Form
     {
         public event EventHandler<int> BrightnessChanged;
 
-        public Form2()
+        public BrightnessForm()
         {
             InitializeComponent();
         }

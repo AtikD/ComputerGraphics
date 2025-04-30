@@ -6,13 +6,13 @@ namespace WinFormsApp1
     {
         Bitmap image;
         Bitmap newImage;
-        Form2 brightnessPopup;
+        BrightnessForm brightnessPopup;
         ShiftForm shiftPopup;
         public Form1()
         {
             InitializeComponent();
 
-            brightnessPopup = new Form2();
+            brightnessPopup = new BrightnessForm();
             shiftPopup = new ShiftForm();
             brightnessPopup.BrightnessChanged += brightnessPopup_BrightnessChanged;
             shiftPopup.ShiftChanged += shiftPopup_ShiftChanged;
