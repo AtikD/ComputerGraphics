@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessing", "ImagePro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomogramVisualizer", "..\TomogramVisualizer\TomogramVisualizer.csproj", "{A4E35064-4FD1-47ED-B1EB-433F4F24BC37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RayTracing", "..\RayTracing\RayTracing.csproj", "{A99D1D1B-232E-4206-BA71-9BFABC1145C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A4E35064-4FD1-47ED-B1EB-433F4F24BC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4E35064-4FD1-47ED-B1EB-433F4F24BC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4E35064-4FD1-47ED-B1EB-433F4F24BC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99D1D1B-232E-4206-BA71-9BFABC1145C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99D1D1B-232E-4206-BA71-9BFABC1145C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99D1D1B-232E-4206-BA71-9BFABC1145C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99D1D1B-232E-4206-BA71-9BFABC1145C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
